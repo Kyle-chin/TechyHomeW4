@@ -68,6 +68,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="ImageFolder\cat1.jpg" />
+    <Content Include="ImageFolder\defaultpic.gif" />
+    <Content Include="ImageFolder\dog1.jpg" />
+    <Content Include="ImageFolder\dog2.jpg" />
+    <Content Include="ImageFolder\dog3.jpg" />
+    <Content Include="ImageFolder\dogdew.jpg" />
+    <Content Include="ImageFolder\ed_edd_eddy.jpg" />
+    <Content Include="ImageFolder\PetMD.png" />
+    <Content Include="ImageFolder\uglycat1.jpg" />
+    <Content Include="ImageFolder\uglycat2.jpg" />
+    <Content Include="ImageFolder\uglycat3.jpg" />
+    <Content Include="Page2.aspx" />
     <Content Include="PetStyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -79,12 +92,26 @@
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page2.aspx.cs">
+      <DependentUpon>Page2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page2.aspx.designer.cs">
+      <DependentUpon>Page2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -98,6 +125,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
