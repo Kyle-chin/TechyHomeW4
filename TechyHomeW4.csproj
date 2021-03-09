@@ -75,8 +75,10 @@
     <Content Include="ImageFolder\dog2.jpg" />
     <Content Include="ImageFolder\dog3.jpg" />
     <Content Include="ImageFolder\dogdew.jpg" />
+    <Content Include="ImageFolder\DogHome.jpg" />
     <Content Include="ImageFolder\ed_edd_eddy.jpg" />
     <Content Include="ImageFolder\PetMD.png" />
+    <Content Include="ImageFolder\PetMedicine.jpg" />
     <Content Include="ImageFolder\uglycat1.jpg" />
     <Content Include="ImageFolder\uglycat2.jpg" />
     <Content Include="ImageFolder\uglycat3.jpg" />
