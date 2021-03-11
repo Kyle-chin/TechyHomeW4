@@ -22,7 +22,6 @@
     <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="https://getbootstrap.com/docs/4.0/examples/carousel/carousel.css" rel="stylesheet">
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -45,6 +44,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Page2.aspx">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Checkout.aspx">Checkout</a>
             </li>
               <!-- disabled link
             <li class="nav-item">

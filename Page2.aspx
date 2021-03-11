@@ -13,6 +13,7 @@
           <p>
             <a href="Home.aspx" class="btn btn-primary my-2">Back to Home</a>
             <a href="default.aspx" class="btn btn-secondary my-2">Pet Gallery</a>
+            <a href="Checkout.aspx" class="btn btn-dark">Checkout</a>
           </p>
         </div>
       </section>
